@@ -42,7 +42,7 @@ const Software = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:8080/data-readings'); 
+      const response = await fetch('44.206.238.218'); 
       const jsonData = await response.json();
 
       const newTemperatureData = jsonData.map(data => ({
