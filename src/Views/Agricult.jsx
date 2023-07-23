@@ -22,7 +22,7 @@ const HomePage = () => {
       <Navbar/>
     <animated.div style={bgAnimation} className="bg-light bg-agriculture">
       <div className="presentation-container">
-        <h1 className="text-center">Bienvenido a "Amigo Agricultor"</h1>
+        <h1 className="text-center">Bienvenido a Amigo Agricultor</h1>
 
         <section>
           <h2>Revoluciona tu agricultura con inteligencia ambiental</h2>
@@ -72,3 +72,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+  
