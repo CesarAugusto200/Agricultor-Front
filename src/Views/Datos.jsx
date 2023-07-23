@@ -50,7 +50,7 @@ const Datos = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('44.206.238.218');
+        const response = await fetch('http://54.86.0.188/data-readings');
         const jsonData = await response.json();
 
         const newCrops = jsonData.map(row => {
