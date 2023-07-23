@@ -1,0 +1,83 @@
+.software-container {
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.software-container {
+  background-color: #8CC63E; /* Fondo verde claro */
+  color: #333; /* Texto oscuro */
+}
+
+.software-container {
+  background-color: #7DC48A; /* Fondo verde suave */
+  color: #333; /* Texto oscuro */
+}
+
+.weather-data {
+  background-color: #F3E197; /* Fondo amarillo suave */
+}
+
+.weather-data-item p {
+  color: #333; /* Texto oscuro */
+}
+
+.weather-icon {
+  color: #23395B; /* Iconos azul oscuro */
+}
+
+.apto-icon {
+  color: #3D7249; /* Iconos verde oscuro */
+}
+
+.no-apto-icon {
+  color: #D4A017; /* Iconos amarillo oscuro */
+}
+
+
+.agriculture-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.software-container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.software-container h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.software-container p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Estilos con temática de agricultura */
+.software-container {
+  background-image: url('ruta/a/imagen-agricultura.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.software-container h2 {
+  font-size: 32px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.software-container p {
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
