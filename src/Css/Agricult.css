@@ -104,3 +104,47 @@ body {
 .carousel-indicators .active {
   background-color: #333;
 }
+
+
+/* CSS para escritorio */
+.presentation-container {
+  padding: 20px;
+}
+
+h1, h2 {
+  font-size: 2em;
+}
+
+p, li {
+  font-size: 1em;
+}
+
+/* CSS para tablet */
+@media (max-width: 768px) {
+  .presentation-container {
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 1.5em;
+  }
+
+  p, li {
+    font-size: 0.875em;
+  }
+}
+
+/* CSS para móvil */
+@media (max-width: 576px) {
+  .presentation-container {
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.2em;
+  }
+
+  p, li {
+    font-size: 0.75em;
+  }
+}
